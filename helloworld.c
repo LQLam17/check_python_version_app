@@ -1,8 +1,8 @@
 #include <stdio.h>
-     
-int main(void)
-{
-    printf("\nHello, world!\n\n");
+#include <stdlib.h>
+
+int main() {
+    printf("Checking Python version on device:\n");
+    system("python3 --version");
     return 0;
 }
-
